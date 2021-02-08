@@ -57,6 +57,23 @@ ctaText.textContent = siteContent["cta"]["h1"];
 const myBtn = document.querySelector('.cta-text button');
 myBtn.textContent = siteContent['cta']['button'];
 
+const ctaImg = document.getElementById('cta-img');
+ctaImg.setAttribute('src', siteContent['cta']['img-src']);
+
+const topContent = document.querySelector('.top-content');
+
+const myTextContent = document.querySelectorAll('.text-content');
+myTextContent[0].textContent = siteContent['main-content']['features-h4'];
+myTextContent[1].textContent = siteContent['main-content']['about-h4'];
+myTextContent[2].textContent = siteContent['main-content']['services-h4'];
+myTextContent[3].textContent = siteContent['main-content']['product-h4'];
+myTextContent[4].textContent = siteContent['main-content']['vision-h4'];
+
+const contactSection = document.querySelector('.contact');
+// myTextContent[5].textContent = siteContent['contact']['contact-h4'];
+const contactH4 = document.querySelector('.contact h4');
+contactH4.textContent = siteContent['contact']['contact-h4'];
+
 
 
 
