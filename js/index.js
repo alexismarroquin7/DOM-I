@@ -106,3 +106,7 @@ contactPTags[1].textContent = siteContent['contact']['phone'];
 contactPTags[2].textContent = siteContent['contact']['email'];
 
 console.log(contactPTags);
+
+// FOOTER P
+const footerP = document.querySelector('footer p');
+footerP.textContent = siteContent['footer']['copyright'];
