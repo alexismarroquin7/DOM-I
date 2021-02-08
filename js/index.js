@@ -66,7 +66,7 @@ const topContent = document.querySelector('.top-content');
 
 
 // HEADERS
-const myTextContent = document.querySelectorAll('.text-content');
+const myTextContent = document.querySelectorAll('.text-content h4');
 myTextContent[0].textContent = siteContent['main-content']['features-h4'];
 myTextContent[1].textContent = siteContent['main-content']['about-h4'];
 myTextContent[2].textContent = siteContent['main-content']['services-h4'];
