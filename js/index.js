@@ -52,8 +52,12 @@ nav_items[4].textContent = siteContent["nav"]["nav-item-5"];
 nav_items[5].textContent = siteContent["nav"]["nav-item-6"];
 
 // DOM IS AWESOME
+const myWords = siteContent['cta']['h1'];
+const myWordsWithBreak = myWords.split(' ').join('\n');
+console.log(myWordsWithBreak);
+
 const ctaText = document.querySelector('.cta-text h1');
-ctaText.textContent = siteContent["cta"]["h1"];
+ctaText.textContent = myWordsWithBreak;
 
 // BUTTON BELOW 'DOM IS AWESOME'
 const myBtn = document.querySelector('.cta-text button');
