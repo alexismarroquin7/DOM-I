@@ -50,4 +50,13 @@ nav_items[3].textContent = siteContent["nav"]["nav-item-4"];
 nav_items[4].textContent = siteContent["nav"]["nav-item-5"];
 nav_items[5].textContent = siteContent["nav"]["nav-item-6"];
 
+const ctaText = document.querySelector('.cta-text h1');
+ctaText.textContent = siteContent["cta"]["h1"];
+
+// ctaText.nextSibling.textContent = siteContent['cta']['button'];
+const myBtn = document.querySelector('.cta-text button');
+myBtn.textContent = siteContent['cta']['button'];
+
+
+
 
