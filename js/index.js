@@ -79,12 +79,19 @@ const contactH4 = document.querySelector('.contact h4');
 contactH4.textContent = siteContent['contact']['contact-h4'];
 
 // P Tags
-// const featuresP = document.querySelector('.text-content p');
+const myPTags = document.querySelectorAll('.text-content p');
 // featuresP.textContent = siteContent['main-content']['features-content'];
 // const featuresCont = topContent.firstChild;
 // const featuresP = featuresCont.lastChild;
 // featuresP.textContent = siteContent['main-content']['features-content'];
-// console.log(featuresP);
+myPTags[0].textContent = siteContent['main-content']['features-content'];
+myPTags[1].textContent = siteContent['main-content']['about-content'];
+myPTags[2].textContent = siteContent['main-content']['services-content'];
+myPTags[3].textContent = siteContent['main-content']['product-content'];
+myPTags[4].textContent = siteContent['main-content']['vision-content'];
+
+
+console.log(myPTags);
 
 // MIDDLE IMG
 
