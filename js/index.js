@@ -98,3 +98,11 @@ console.log(myPTags);
 const middleImg = document.querySelector('#middle-img');
 middleImg.setAttribute('src', siteContent['main-content']['middle-img-src']);
 console.log(middleImg);
+
+// CONTACT CONTENT
+const contactPTags = document.querySelectorAll('.contact p');
+contactPTags[0].textContent = siteContent['contact']['address'];
+contactPTags[1].textContent = siteContent['contact']['phone'];
+contactPTags[2].textContent = siteContent['contact']['email'];
+
+console.log(contactPTags);
